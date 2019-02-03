@@ -32,7 +32,7 @@ editor.html
 The labels are stored in a dictionary by language:
 ```js
 editor.html
-1983 GLIFFY.DICTIONARY.de = $.extend(GLIFFY.DICTIONARY.de, {...,"SIDEBAR_BASIC_SHAPES": Grundlegende Formen"}
+1983 GLIFFY.DICTIONARY.de = $.extend(GLIFFY.DICTIONARY.de, {...,"SIDEBAR_BASIC_SHAPES": "Grundlegende Formen"}
 ```
 They are then "read" in this dictionary when using the template:
 ```js
