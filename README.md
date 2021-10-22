@@ -2,7 +2,7 @@
 ## :us: Fixed of the Gliffy Chrome App characters encoding bug (de, fr and ru)
 The Chrome [Gliffy Diagrams](https://chrome.google.com/webstore/detail/gliffy-diagrams/bhmicilclplefnflapjmnngmkkkkpfad?hl=en) allows you to draw diagrams with ease and works offline.
 
-But the latest version (`1.0.31`) of the application suffers from a problem of encoding the wording of the translations:
+But the latest version (`1.0.32`) of the application suffers from a problem of encoding the wording of the translations:
 - `GLIFFY.DICTIONARY.de: "Einige Ihrer Ãnderungen sind nicht gespeichert."...`
 - `GLIFFY.DICTIONARY.fr: "Vos modifications n'ont pas Ã©tÃ© enregistrÃ©es"...`
 - `GLIFFY.DICTIONARY.ru: "Ð»Ð¸ÑÑ Ð½ÐµÑÐ¾ÑÑÐ°Ð½ÐµÐ½Ð½ÑÐµ Ð´Ð°Ð½Ð½ÑÐµ."... `
@@ -15,7 +15,7 @@ The free Chrome app is a limited version of Gliffy Online, so it does not have a
 ### Fixed bug with modified `editor.html` :ambulance:
 1. Close the Gliffy Diagrams application
 1. Identify the [`Profile Path`](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/user_data_dir.md#Current-Location) by typing `chrome://version` in the Chrome URL bar
-1. Move to `your_profile_path\Extensions\bhmicilclplefnflapjmnngmkkkkpfad\1.0.31_0` which is the application folder
+1. Move to `your_profile_path\Extensions\bhmicilclplefnflapjmnngmkkkkpfad\1.0.32_0` which is the application folder
 1. Rename the `editor.html` file to `editor.html.origin` for security
 1. Replace the original file by copying the `editor.html` file from the repository
 1. Launch Gliffy Diagrams and see the change: :+1:
@@ -76,7 +76,7 @@ I applied the correct decoding directly to the entire `editor.html` file for:
 ## :fr: Correction du bug d'encodage des caractères de Gliffy
 L'application Chrome [Diagrammes de Gliffy](https://chrome.google.com/webstore/detail/gliffy-diagrams/bhmicilclplefnflapjmnngmkkkkpfad?hl=fr) permet de dessiner des diagrammes en toute simplicité et fonctionne en mode hors connexion.
 
-Mais la dernière version (`1.0.31`) de l'application souffre d'un problème d'encodage des libellés des traductions :
+Mais la dernière version (`1.0.32`) de l'application souffre d'un problème d'encodage des libellés des traductions :
 - `GLIFFY.DICTIONARY.de : "Einige Ihrer Änderungen sind nicht gespeichert."...`
 - `GLIFFY.DICTIONARY.fr : "Vos modifications n'ont pas Ã©tÃ© enregistrÃ©es."...` 
 - `GLIFFY.DICTIONARY.ru : "Ð»Ð¸ÑÑ Ð½ÐµÑÐ¾ÑÑÐ°Ð½ÐµÐ½Ð½ÑÐµ Ð´Ð°Ð½Ð½ÑÐµ."...`
@@ -89,7 +89,7 @@ Mais la dernière version (`1.0.31`) de l'application souffre d'un problème d'e
 ### Correction du bug avec le fichier `editor.html` modifié :ambulance:
 1. Fermez l'application Diagrammes de Gliffy
 1. Identifiez le [`Chemin d'accès au profil`](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/user_data_dir.md#Current-Location) en tapant `chrome://version` dans le barre d'URL de Chrome
-1. Déplacez vous dans `votre_chemin_de_profil\Extensions\bhmicilclplefnflapjmnngmkkkkpfad\1.0.31_0` qui est le dossier de l'application
+1. Déplacez vous dans `votre_chemin_de_profil\Extensions\bhmicilclplefnflapjmnngmkkkkpfad\1.0.32_0` qui est le dossier de l'application
 1. Renommez par sécurité le fichier `editor.html` en `editor.html.origin`
 1. Remplacez le fichier d'origine en y copiant le fichier `editor.html` du dépôt
 1. Lancez Diagrammes de Gliffy et constatez le changement : `Entité-Relation` `Réseau` `Modifier > Rétablir` :+1:
